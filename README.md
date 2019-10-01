@@ -4,7 +4,7 @@
 Use this application that will display my projects for the year.
 
 ## Screenshots
-![Sandwich Maker Preview 1]()
+![Personal Bio Site Preview 1](https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/screenshots/screenshot.png)
 
 
 
