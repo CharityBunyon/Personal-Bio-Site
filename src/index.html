@@ -3,43 +3,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Personal Bio</title>
+  <link rel="stylesheet" href="./main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5d9186a566.js"></script>
+
+  <!-- TODO: Insert a title for your page -->
+  <title>Charity's Portfolio</title>
 </head>
 
-<body>
+<p>
   <!-- Navigation -->
   <nav>
-    <h1>Charity Bunyon</h1>
+    <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    <h2>Charity Bunyon Portfolio</h2>
     <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
+      <li><a href=#bioPage id="navToBio">Bio</a></li>
+      <li><a href=#teechnologiesPage id="navToTechnologies">Technologies</a></li>
+      <li><a href=#projectsPage id="navToProjects">Projects</a></li>
     </ul>
+    
   </nav>
   <!-- End Navigation -->
 
   <!-- Primary View -->
   <div class="fullPage" id="bioPage">
-      <p>Charity is a motivated trainer who enjoys educating others. She holds a Bachelor of Arts in English and a Master of Science in Education. She's interested in web development because she intends to use these skills to open her own business. She enjoys all of the challenges that coding gives her. </p>
+    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+    <h2>Professional Background</h2>
+    
+    <p>Bachelor of Arts in English and Master of Science in Education & Theory from The University of Tennessee.</p>
+
+    <p>I am a motivated trainer who enjoys educating others. Currently I hold a Bachelor of Arts in English and a Master of Science in Education. I'm interested in web development because I want to learn how to build software that will help a lot of people. Being a fullstack web developer will help me accomplish this goal.</p>
     
   </div>
   <div class="fullPage" id="technologiesPage">
-      <ul>
-          <li>Visual Studio Code</li>
-          <li>Github</li>
-
-      </ul>
-    
+    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+    <h3>Technologies I've Learned</h3>
+    <ul id="learnedTechnologies">
+  
+        <li>Javascript</li>
+        <li>Cascading Style Sheets</li>
+        <li>HTML</li>
+    </ul>
   </div>
   <div class="fullPage" id="projectsPage"></div>
   <!-- End Primary View -->
 
   <!-- Footer -->
   <footer class="page-footer">
-      <p>Charity Bunyon</p>
-      <p>Email: cseymou5@gmail.com</p>
+    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+    <a href="mailto:cseymou5@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/charity-bunyon-bb96096b/"><i class="fab fa-linkedin"></i></a>
     
   </footer>
   <!-- End Footer -->
+  <script src="./main.js"></script>
 </body>
 </html>
