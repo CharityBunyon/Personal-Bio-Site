@@ -6,8 +6,8 @@ import utilities from '../../helpers/utilities';
 const buildContactSection = () => {
   const domString = `
   <div class="container">
-  <h3 class="text-center ml-1">Let's Connect</h3>
-  <p class="text-center">Want to talk more? Please fill out the form below and click
+  <h1 class="text-center ml-1">LET'S CONNECT</h1>
+  <p class="text-center contactPara">Want to talk more? Please fill out the form below and click
       submit. I look forward to hearing from you!</p>
   <form>
       <div class="form-row">
