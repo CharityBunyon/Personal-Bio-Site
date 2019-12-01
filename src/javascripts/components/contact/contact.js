@@ -1,5 +1,5 @@
 import './contact.scss';
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
 
 // import profile from '../../../images/IMG_1147.JPG';
 
@@ -31,7 +31,7 @@ const buildContactSection = () => {
               placeholder="Your Message" required></textarea>
       </div>
 
-      <button id="valid" type="button" class="btn btn-block btn-outline-dark" data-toggle="modal"
+      <button id="valid" type="button" class="btn btn-block submitBtn" data-toggle="modal"
           data-target="#exampleModal">Submit Message</button>
   
 

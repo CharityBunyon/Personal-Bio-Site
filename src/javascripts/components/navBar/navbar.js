@@ -1,5 +1,5 @@
 import './navbar.scss';
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
 
 import logo from '../../../images/CBLOGO.png';
 
