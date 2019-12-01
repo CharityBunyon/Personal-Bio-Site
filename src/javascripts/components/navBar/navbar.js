@@ -16,16 +16,16 @@ const buildNav = () => {
   <div class="collapse navbar-collapse navLinks" id="navbarSupportedContent">
     <ul class="navbar-nav container">
       <li class="nav-item active">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="#about">ABOUT</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">SKILLS</a>
+        <a class="nav-link" href="#skills">SKILLS</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">PROJECTS</a>
+        <a class="nav-link" href="#projects">PROJECTS</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
       </li>
     </ul>
   </div>
