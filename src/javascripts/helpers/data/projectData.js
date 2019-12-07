@@ -1,24 +1,22 @@
-const projects = [
-  {
-    imageUrl: 'https://github.com/CharityBunyon/solar-system/blob/master/images/fullSite.jpg?raw=true',
-    title: 'Solar System',
-    description: 'An app that allows users to receive information about the solar system',
-    src: 'https://www.youtube.com/watch?v=I_fVO_NzT2g',
-  },
-  {
-    imageUrl: 'https://github.com/CharityBunyon/solar-system/blob/master/images/fullSite.jpg?raw=true',
-    title: 'Solar System',
-    description: 'An app that allows users to receive information about the solar system',
-    src: 'https://www.youtube.com/watch?v=I_fVO_NzT2g',
-  },
-  {
-    imageUrl: 'https://github.com/CharityBunyon/solar-system/blob/master/images/fullSite.jpg?raw=true',
-    title: 'Solar System',
-    description: 'An app that allows users to receive information about the solar system',
-    src: 'https://www.youtube.com/watch?v=I_fVO_NzT2g',
-  },
-];
+import axios from 'axios';
+import apiKeys from '../apiKeys.json';
 
-const getProject = () => projects;
+const baseUrl = apiKeys.firebaseKeys.databaseURL;
+// got this from apiKeys and stuck it in axios.get below
 
-export default { getProject };
+const getProjects = () => new Promise((resolve, reject) => {
+  axios.get(`${baseUrl}/projects.json`)
+    .then((response) => {
+      const theProjects = response.data;
+      const projects = [];
+      Object.keys(theProjects).forEach((fbId) => {
+        theProjects[fbId].id = fbId;
+        projects.push(theProjects[fbId]);
+      });
+      resolve(projects); // hard code to only return first machine that comes back
+    })
+    .catch((error) => reject(error));
+});
+
+
+export default { getProjects };

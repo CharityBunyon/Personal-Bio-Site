@@ -1,0 +1,20 @@
+{
+  "project1": {
+    "title": "Sandwich Maker",
+    "projectImg": "https://images.unsplash.com/photo-1501059520966-c59141726d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+    "description": "This is an application that will allow users to order a sandwich of their choice.",
+    "url": "https://www.youtube.com/watch?v=eFoX0i4Sm_0"
+  },
+  "project2": {
+    "title": "Pardon Us",
+    "projectImg": "https://images.unsplash.com/photo-1501059520966-c59141726d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+    "description": "This is a band website that I worked on with my group members.",
+    "url": "https://www.youtube.com/watch?v=eFoX0i4Sm_0"
+  },
+  "project3": {
+    "title": "Solar System",
+    "projectImg": "https://images.unsplash.com/photo-1501059520966-c59141726d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+    "description": "This is a single page app that allow users to receive more information about our solar system.",
+    "url": "https://www.youtube.com/watch?v=eFoX0i4Sm_0"
+  }
+} 
