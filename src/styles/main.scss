@@ -4,9 +4,9 @@
 }
 
 body {
-    background-color: rgb(243, 240,237);
+    // background-color: rgb(243, 240,237);
     font-family: 'Gupter', serif;
-    color: #444544;
+    // color: #444544;
     margin: 0;
 
 }
@@ -14,18 +14,18 @@ body {
 //WELCOME
 
 #welcome{
-    // background-color: brown;
+    background-attachment: #000;
 }
 
 #squareOne{
-    background: rgba(0,0,0,.3);
+    background: #000;
     width: 50%;
     height: 100%;
     // margin: 0 auto;
 }
 
 #squareTwo{
-    background: pink;
+    background: #fff;
     width: 50%;
     height: 100%;
     position: relative;
@@ -44,13 +44,18 @@ body {
     font-size: 30px;
 }
 #icons a {
-    color: #444544;
+    color: crimson;
+}
+
+#underline {
+    border: 1px solid crimson;
+    width: 125px;
 }
 .aboutTitle{
     padding: 20px 0px;
 }
 .aboutPara{
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px 0px;
 }
 
@@ -59,7 +64,9 @@ body {
   }
 
 .profileImg{
+    margin-top: 20px;
     border-radius: 50%;
+    border: solid #000 3px;
 }
 
 .aboutPosition{
@@ -67,9 +74,11 @@ body {
 }
 
 
+
+
 //SKILLS
 #skills {
-    background-color:#f3f0ed;
+    background-color:#000;
 }
 
 
@@ -81,15 +90,16 @@ body {
 
 //CONTACT
 #contact {
-    background-color:#f3f0ed;
+    background-color:#000;
 }
 
 .footer{
     text-align: center;
-    background-color: #fff;
+    background-color: #000;
     // background-color: palevioletred;
     padding: 20px;
     font-size: 25px;
+    color: #fff;
 }
 
 .fwh-slide{
@@ -104,15 +114,15 @@ body {
 
 // MEDIA QUERIES
 
-@media only screen and (max-width: 600px) {
-    .profileImg{
-        width: 400px;
-        height: 400px;
-    }
-}
+// @media only screen and (max-width: 600px) {
+//     .profileImg{
+//         width: 400px;
+//         height: 400px;
+//     }
+// }
 
-@media only screen and (min-width: 768px) {
-    .aboutPosition {
-        top: 50px;
-    }
-}
+// @media only screen and (min-width: 768px) {
+//     .aboutPosition {
+//         top: 50px;
+//     }
+// }

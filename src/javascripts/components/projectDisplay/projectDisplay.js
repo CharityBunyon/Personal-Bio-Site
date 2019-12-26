@@ -8,8 +8,8 @@ import projectDom from '../projects/projects';
 const buildProjects = () => {
   projectData.getProjects()
     .then((project) => {
-      let domString = '<h1 id="projectTitle" class="text-center">Projects</h1>';
-      domString = '<div>';
+      let domString = '<h1 id="projectTitle" class="text-center">Projects</h1> <hr id="underline">';
+      domString += '<div class="container-fluid d-flex flex-wrap justify-content-center">';
       project.forEach((board) => {
         domString += projectDom.buildProjectCard(board);
       });
