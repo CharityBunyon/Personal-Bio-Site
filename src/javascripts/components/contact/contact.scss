@@ -1,12 +1,50 @@
-.submitBtn{
-  border: 1px solid #444544;
-};
 
-.submitBtn:hover {
-  background-color: #444544;
-  color:#fff;
+#squareThree{
+  background: #000;
+  width: 50%;
+  height: 100%;
+  // margin: 0 auto;
 }
 
-.contactPara{
-  font-size: 20px;
+#squareFour{
+  background: #fff;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.contactSection{
+  position: absolute;
+  top: 250px;
+  margin-left: 30px;
+
+}
+.contactTitles{
+  font-weight: bold;
+}
+
+.space {
+  padding: 20px;
+}
+
+.contactUnderline{
+  border: 1px solid crimson;
+}
+
+.contactPara {
+font-size: 25px;
+color: crimson;
+}
+
+.contactPara  a {
+  text-decoration: none;
+  color: crimson;
+  }
+
+.contactImg {
+  max-width:35%;
+  height:700px;
+  position: absolute;
+  left: 115px;
+  margin-top: 150px;;
 }
