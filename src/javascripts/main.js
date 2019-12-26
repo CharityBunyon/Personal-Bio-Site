@@ -8,7 +8,7 @@ import welcome from './components/welcome/welcome';
 
 const init = () => {
   navBar.buildNav();
-  contact.buildContactSection();
+  contact.buildContact();
   skills.buildSkills();
   welcome.buildAnimation();
   projectDisplay.buildProjects();
