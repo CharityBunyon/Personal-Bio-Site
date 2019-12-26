@@ -1,0 +1,23 @@
+{
+  "project1": {
+    "title": "Sandwich Maker",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/sandwich-maker/master/screenshots/Main%20Screen%20Shot.png",
+    "description": "Hit the Spot is an application that will allow users to order a sandwich of their choice. Click the image to view project.",
+    "technologies": "HTML, CSS, JAVASCRIPT, BOOTSTRAP",
+    "url": "https://sandwich-maker-a04f9.firebaseapp.com/"
+  },
+  "project2": {
+    "title": "Fadterest",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/sandwich-maker/master/screenshots/Main%20Screen%20Shot.png",
+    "description": "Are you obsessed with fashion? Want to see what I believe are fads? Click the image to view this project?",
+    "technologies": "HTML, CSS, JAVASCRIPT, BOOTSTRAP, SASS, FIREBASE",
+    "url": "https://www.youtube.com/watch?v=3FL4BgYguyI"
+  },
+  "project3": {
+    "title": "Solar System",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/solar-system/master/images/fullSite.jpg",
+    "description": "This is a single page app that allow users to receive more information about our solar system.",
+    "technologies": "HTML, CSS, JQUERY, JAVASCRIPT",
+    "url": ""
+  }
+} 

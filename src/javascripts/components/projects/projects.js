@@ -1,28 +1,20 @@
-// import $ from 'jquery';
-import utilities from '../../helpers/utilities';
 import './projects.scss';
-import projects from '../../helpers/data/projectData';
 
 
-const buildProjects = () => {
-  const projectList = projects.getProject();
-  let domString = `<div class="text-center projectTitle container"><h1>PROJECTS</h1></div>
-  `;
-  for (let i = 0; i < projectList.length; i += 1) {
-    const project = projectList[i];
-    domString += `
-        <div class="card-deck mx-auto">
-        <div class="col">
-          <a href="${project.src}"><img style="width:400px; height:400px;" class="planetImage back" src="${project.imageUrl}" alt="${project.name}"></a>
-          <div>
-          <h4 class="front">${project.title.toUpperCase()}</h4>
-          <p>${project.description}</p>
-          </div>
+const buildProjectCard = (projects) => {
+  let domString = '';
+  domString += `
+      <div class= "row">
+      <div class="col card projectCard" style="width: 600px;">
+      <div class="card-body">
+      <a href="${projects.url}"><img class="card-img-top" src="${projects.projectImg}" alt="${projects.title}"></a>
+      <h4 class="front">${projects.title.toUpperCase()}</h4>
+      <p>${projects.description}</p>  
+      <p>Technologies Used:${projects.technologies}</p>
       </div>
-    `;
-  }
-  domString += '</div>';
-  utilities.printToDom('projects', domString);
+      </div>
+      </div>
+      `;
+  return domString;
 };
-
-export default { buildProjects };
+export default { buildProjectCard };
