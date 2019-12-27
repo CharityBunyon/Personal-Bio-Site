@@ -2,22 +2,29 @@
   "project1": {
     "title": "Sandwich Maker",
     "projectImg": "https://raw.githubusercontent.com/CharityBunyon/sandwich-maker/master/screenshots/Main%20Screen%20Shot.png",
-    "description": "Hit the Spot is an application that will allow users to order a sandwich of their choice. Click the image to view project.",
-    "technologies": "HTML, CSS, JAVASCRIPT, BOOTSTRAP",
+    "description": "Hit the Spot is an application that will allow users to order a sandwich of their choice. Click the image to view project!",
+    "technologies": "HTML, CSS, Javascript, Bootstrap",
     "url": "https://sandwich-maker-a04f9.firebaseapp.com/"
   },
   "project2": {
     "title": "Fadterest",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/sandwich-maker/master/screenshots/Main%20Screen%20Shot.png",
-    "description": "Are you obsessed with fashion? Want to see what I believe are fads? Click the image to view this project?",
-    "technologies": "HTML, CSS, JAVASCRIPT, BOOTSTRAP, SASS, FIREBASE",
-    "url": "https://www.youtube.com/watch?v=3FL4BgYguyI"
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Pinterest/master/src/assets/images/Screenshot%201.png",
+    "description": "Are you obsessed with fads? Want to pin all of your favorite fads to boards? Click the image to view this project!",
+    "technologies": "HTML, CSS, Javascript, Bootstrap",
+    "url": "https://pinterest-d9513.firebaseapp.com/"
   },
   "project3": {
     "title": "Solar System",
     "projectImg": "https://raw.githubusercontent.com/CharityBunyon/solar-system/master/images/fullSite.jpg",
-    "description": "This is a single page app that allow users to receive more information about our solar system.",
-    "technologies": "HTML, CSS, JQUERY, JAVASCRIPT",
-    "url": ""
+    "description": "This is a single page app that allow users to receive more information about the planets in our solar system. Click the image to view this project!",
+    "technologies": "HTML, CSS, Jquery, Javascript, Bootstrap",
+    "url": " https://solar-system-4f715.firebaseapp.com"
+  },
+  "project4": {
+    "title": "Pardon Us Band Website",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/solar-system/master/images/fullSite.jpg",
+    "description": "This is a group project I completed for a band called Pardon Us. If you want to learn more about the band then click the image to view the project!",
+    "technologies": "HTML, CSS, Javascript, Bootstrap",
+    "url": "https://pardon-us.firebaseapp.com/"
   }
 } 
