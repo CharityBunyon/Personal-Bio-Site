@@ -1,4 +1,32 @@
 .projectCard{
-margin: 5px;
+// margin: 5px;
 border-style: none;
+}
+
+.projectTitle{
+  color: crimson;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.projectInfo{
+  font-size: 20px;
+}
+
+.projectClick{
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projectImg{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.projectImg:hover {  
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
