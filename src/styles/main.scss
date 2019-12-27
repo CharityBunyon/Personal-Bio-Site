@@ -4,7 +4,7 @@
 }
 
 body {
-    // background-color: rgb(243, 240,237);
+    background-color: rgb(243, 240,237);
     font-family: 'Gupter', serif;
     // color: #444544;
     margin: 0;
@@ -55,7 +55,7 @@ body {
     padding: 20px 0px;
 }
 .aboutPara{
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px 0px;
 }
 
@@ -71,6 +71,24 @@ body {
 
 .aboutPosition{
     position: relative;
+}
+
+.resume-link{
+    display: inline-block;
+    padding: 25px 40px;
+    border: solid 1px #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+}
+
+.resume-link:hover{
+    text-decoration: none;
+    background-color: crimson;
+    border: crimson solid 1px;
+    color: #fff;
 }
 
 
