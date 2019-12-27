@@ -5,12 +5,13 @@ const buildProjectCard = (projects) => {
   let domString = '';
   domString += `
       <div class= "row">
-      <div class="col card projectCard" style="width: 600px;">
+      <div class="col card projectCard" style="width:600px;">
       <div class="card-body">
-      <a href="${projects.url}"><img class="card-img-top" src="${projects.projectImg}" alt="${projects.title}"></a>
-      <h4 class="front">${projects.title.toUpperCase()}</h4>
-      <p>${projects.description}</p>  
-      <p>Technologies Used:${projects.technologies}</p>
+      <a href="${projects.url}"><img style="width:550px; height: 300px;" class="card-img-top projectImg" src="${projects.projectImg}" alt="${projects.title}"></a>
+      <h4 class="projectTitle">${projects.title.toUpperCase()}</h4>
+      <p class="projectInfo">${projects.description}</p>  
+      <p class="projectInfo">Technologies Used:${projects.technologies}</p>
+      <p class="projectClick">${projects.click}</p>
       </div>
       </div>
       </div>
