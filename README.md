@@ -14,19 +14,19 @@ Here is my personal portfolio site that displays all of my projects.
 
 ## Screenshots
 Display on page load
-![on load]()
+![on load](https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/screenshots/Home.png)
 
 About Section
-![about]()
+![about](https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/screenshots/About.png)
 
 Technology Section
-![skills]()
+![skills](https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/screenshots/Technologies.png)
 
 Projects Section
-![projects]()
+![projects](https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/screenshots/Projects.png)
 
 Contact Section
-![create pin]()
+![create pin](https://github.com/CharityBunyon/Personal-Bio-Site/blob/master/screenshots/Contact.png)
 
 
 
