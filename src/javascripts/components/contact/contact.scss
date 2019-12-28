@@ -21,6 +21,7 @@
 }
 .contactTitles{
   font-weight: bold;
+  color:#111;
 }
 
 .space {
@@ -33,13 +34,18 @@
 
 .contactPara {
 font-size: 25px;
-color: crimson;
+color:#111;
 }
 
 .contactPara  a {
   text-decoration: none;
-  color: crimson;
+  color:#111;
   }
+
+  .contactPara  a:hover {
+    text-decoration: none;
+    color:crimson;
+    }
 
 .contactImg {
   max-width:35%;

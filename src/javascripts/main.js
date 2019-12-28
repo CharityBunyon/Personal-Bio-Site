@@ -12,7 +12,6 @@ const init = () => {
   skills.buildSkills();
   welcome.buildAnimation();
   projectDisplay.buildProjects();
-  projectDisplay.projectCardHover();
 };
 
 init();
