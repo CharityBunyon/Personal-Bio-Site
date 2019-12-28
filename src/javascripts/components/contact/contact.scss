@@ -1,21 +1,21 @@
 
-#squareThree{
-  background: #000;
-  width: 50%;
-  height: 100%;
-  // margin: 0 auto;
-}
+// #squareThree{
+//   background: #000;
+//   width: 50%;
+//   height: 100%;
+//   // margin: 0 auto;
+// }
 
-#squareFour{
-  background: #fff;
-  width: 50%;
-  height: 100%;
-  position: relative;
-}
+// #squareFour{
+//   background: #fff;
+//   width: 50%;
+//   height: 100%;
+//   position: relative;
+// }
 
 .contactSection{
   position: absolute;
-  top: 250px;
+  top: 120px;
   margin-left: 30px;
 
 }
@@ -42,10 +42,10 @@ color:#111;
   color:#111;
   }
 
-  .contactPara  a:hover {
-    text-decoration: none;
-    color:crimson;
-    }
+.contactPara  a:hover {
+  text-decoration: none;
+  color:crimson;
+  }
 
 .contactImg {
   max-width:35%;

@@ -5,7 +5,7 @@ import logo from '../../../images/CBLOGO.png';
 
 const buildNav = () => {
   const domString = `
-  <nav class="navbar navbar-expand-lg mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light mainNav">
   <a class="navbar-brand" href="#">
   <img src=${logo} class="navImage">
   </a>
