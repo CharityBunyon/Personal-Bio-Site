@@ -1,7 +1,7 @@
 {
   "project1": {
     "title": "Sandwich Maker",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Hit%20Home.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Sandwich.jpg",
     "description": "Hit the Spot is an application that will allow users to order a sandwich of their choice.",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "click": "Click the image to view project!",
@@ -9,7 +9,7 @@
   },
   "project2": {
     "title": "Fadterest",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Fad%20Home.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/FAD.jpg",
     "description": "Are you obsessed with fads? Want to pin all of your favorite fads to boards?",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "click": "Click the image to view project!",
@@ -17,7 +17,7 @@
   },
   "project3": {
     "title": "Solar System",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/solar-system/master/images/fullSite.jpg",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Solar.jpg",
     "description": "This is a single page app that allow users to receive more information about the planets in our solar system.",
     "technologies": "HTML, CSS, Jquery, Javascript, Bootstrap",
     "click": "Click the image to view project!",
@@ -25,7 +25,7 @@
   },
   "project4": {
     "title": "Pardon Us Band Website",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Band%20Home.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Pardon.jpg",
     "description": "This is a group project I completed for a band called Pardon Us. If you want to learn more about the band?",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "click": "Click the image to view project!",
