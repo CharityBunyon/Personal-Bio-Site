@@ -25,7 +25,7 @@
   },
   "project4": {
     "title": "Pardon Us Band Website",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/Band%20Home.png",
+    "projectImg": "https://github.com/CharityBunyon/Personal-Bio-Site/blob/master/src/images/Pardon.jpg",
     "description": "This is a group project I completed for a band called Pardon Us. If you want to learn more about the band?",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "click": "Click the image to view project!",
