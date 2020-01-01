@@ -9,12 +9,12 @@ const buildProjects = () => {
   projectData.getProjects()
     .then((project) => {
       let domString = '<h1 id="projectTitle" class="text-center">WHAT I\'VE DONE</h1> <hr id="underline">';
-      domString += '<div class="container-fluid">';
       project.forEach((board) => {
+        domString += '<di class="container">';
         domString += projectDom.buildProjectCard(board);
       });
       utilities.printToDom('projects', domString);
-      domString = '</div>';
+      domString += '</div>';
     })
     .catch((error) => console.error(error));
 };

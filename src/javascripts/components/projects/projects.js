@@ -4,11 +4,11 @@ import './projects.scss';
 const buildProjectCard = (projects) => {
   let domString = '';
   domString += `
-  <div class="row d-flex justify-content-center projectCard">
+  <div class="row projectCard">
   <div class="col">
-  <a href="${projects.url}"><img style="width:800px; height: 500px;" class="projectImg" src="${projects.projectImg}" alt="${projects.title}"></a>
+  <a href="${projects.url}"><img class="projectImg" src="${projects.projectImg}" alt="${projects.title}"></a>
   </div>
-  <div class="col projectContents">
+  <div class="col projectContents text-center">
   <h4 class="projectTitle">${projects.title.toUpperCase()}</h4>
     <p class="projectInfo">${projects.description}</p>  
     <p class="projectInfo"><strong>Technologies Used:</strong> ${projects.technologies}</p>

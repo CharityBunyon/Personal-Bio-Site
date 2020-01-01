@@ -1,12 +1,12 @@
 .projectCard {
-  padding-right: 30px;
+  // padding-right: 30px;
 }
 
 .projectTitle{
   color: #000;
   font-weight: bold;
   font-size: 30px;
-  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .projectInfo{
@@ -20,8 +20,9 @@
 }
 
 .projectImg{
-margin: 0px;
-padding: 0px;
+width: 800px;
+
+// border: 1px solid #000;
 }
 
 // .projectImg:hover {  
@@ -30,5 +31,38 @@ padding: 0px;
 // }
 
 .projectContents{
-  padding: 150px 0px;
+  padding-top: 100px;
+  // border: 1px solid #000;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .projectImg{
+    width: 375px;
+  }
+
+  .projectContents{
+    width: 300px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
