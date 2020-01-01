@@ -9,7 +9,7 @@ const buildProjects = () => {
   projectData.getProjects()
     .then((project) => {
       let domString = '<h1 id="projectTitle" class="text-center">WHAT I\'VE DONE</h1> <hr id="underline">';
-      domString += '<div class="container d-flex flex-wrap justify-content-between">';
+      domString += '<div class="container-fluid">';
       project.forEach((board) => {
         domString += projectDom.buildProjectCard(board);
       });

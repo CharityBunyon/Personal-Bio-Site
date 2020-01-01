@@ -3,6 +3,8 @@
 //     box-sizing: border-box;
 // }
 
+  
+
 body {
     color: #111;
     font-family: 'Gupter', serif;
@@ -16,7 +18,7 @@ body {
 .parallax {
     position: relative;
     // opacity: 0.65;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,6 +46,7 @@ body {
 }
 .aboutTitle{
     padding: 20px 0px;
+    text-align: center;
 }
 .aboutPara{
     font-size: 20px;
@@ -56,13 +59,15 @@ body {
 
 .profileImg{
     position: relative;
-    margin-top: 90px;
+    margin-top: 200px;
     border-radius: 50%;
     border: solid #111 2px;
+    width: 350px;
 }
 
 .aboutPosition{
     position: relative;
+    margin-right: 20px;
 }
 
 .resume-link{
@@ -74,6 +79,7 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     color: #000;
+
 }
 
 .resume-link:hover{
@@ -125,7 +131,7 @@ body {
 .parallaxTwo {
     position: relative;
     // opacity: 0.65;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,7 +144,7 @@ body {
 .parallaxThree{
     position: relative;
     // opacity: 0.65;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
