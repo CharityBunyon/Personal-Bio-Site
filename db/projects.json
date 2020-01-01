@@ -10,7 +10,7 @@
   "project2": {
     "title": "Fadterest",
     "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/1%20copy.jpg",
-    "description": "Are you obsessed with fads? Want to pin all of your favorite fads to boards?",
+    "description": "Pinterest aka Fadterest is a single page application that allows users to log in, create fad boards, and add pins all of your favorite fads to their boards.",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "click": "Click the image to view project!",
     "url": "https://pinterest-d9513.firebaseapp.com/"
@@ -18,7 +18,7 @@
   "project3": {
     "title": "Solar System",
     "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/3%20copy.jpg",
-    "description": "This is a single page app that allow users to receive more information about the planets in our solar system.",
+    "description": "Solar System is a single page app that allow users to receive more information about the planets in our solar system.",
     "technologies": "HTML, CSS, Jquery, Javascript, Bootstrap",
     "click": "Click the image to view project!",
     "url": " https://solar-system-4f715.firebaseapp.com"
@@ -26,7 +26,7 @@
   "project4": {
     "title": "Pardon Us Band Website",
     "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/4%20copy.jpg",
-    "description": "This is a group project I completed for a band called Pardon Us. If you want to learn more about the band?",
+    "description": "Pardon Us is group project I completed for a band called Pardon Us. I completed the about page.",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "click": "Click the image to view project!",
     "url": "https://pardon-us.firebaseapp.com/"
