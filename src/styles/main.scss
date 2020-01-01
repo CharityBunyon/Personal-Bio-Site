@@ -50,7 +50,6 @@ body {
 }
 .aboutPara{
     font-size: 20px;
-    padding: 20px 0px;
 }
 
 .row {
@@ -59,7 +58,7 @@ body {
 
 .profileImg{
     position: relative;
-    margin-top: 200px;
+    margin-top: 180px;
     border-radius: 50%;
     border: solid #111 2px;
     width: 350px;
@@ -67,7 +66,7 @@ body {
 
 .aboutPosition{
     position: relative;
-    margin-right: 20px;
+    // margin-right: 20px;
 }
 
 .resume-link{
@@ -136,7 +135,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("https://images.unsplash.com/photo-1567938370941-ded6a4a2177f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80");
-    min-height: 100%;
+   min-height: 100%;
 }
 
 //CONTACT
