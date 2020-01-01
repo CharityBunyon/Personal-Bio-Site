@@ -11,7 +11,7 @@ const buildProjectCard = (projects) => {
   <div class="col projectContents">
   <h4 class="projectTitle">${projects.title.toUpperCase()}</h4>
     <p class="projectInfo">${projects.description}</p>  
-    <p class="projectInfo">Technologies Used:${projects.technologies}</p>
+    <p class="projectInfo"><strong>Technologies Used:</strong> ${projects.technologies}</p>
     <p class="projectClick">${projects.click}</p>
   </div>
 </div>
