@@ -21,20 +21,24 @@
 
 .projectImg{
 width: 800px;
-
-// border: 1px solid #000;
 }
 
-// .projectImg:hover {  
-//   -webkit-filter: grayscale(0%);
-//   filter: grayscale(0%);
-// }
 
 .projectContents{
   padding-top: 100px;
   // border: 1px solid #000;
 }
 
+.viewBtn {
+  color: #000;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.viewBtn:hover {
+text-decoration: none;
+color: crimson;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
