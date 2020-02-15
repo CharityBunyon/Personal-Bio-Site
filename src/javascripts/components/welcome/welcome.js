@@ -3,7 +3,7 @@ import utilities from '../../helpers/utilities';
 
 const buildAnimation = () => {
   const domString = `
-  <div class="col-12 fadeInText">
+  <div class="col-12 fadeInText landing">
     <p class="myName">Charity Bunyon</p>
     <p class="myTitle">A Software Developer</p>
   </div>
