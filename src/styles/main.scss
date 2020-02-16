@@ -34,8 +34,13 @@ body {
     font-size: 30px;
 }
 #icons a {
-    color: #f5d328;;
+    color: #000;
 }
+
+#icons a:hover {
+    color: #f5d328;
+}
+
 
 #underline {
     border: 1px solid crimson;
