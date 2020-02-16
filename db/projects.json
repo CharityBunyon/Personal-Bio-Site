@@ -1,7 +1,7 @@
 {
   "project1": {
     "title": "Create Beauty",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/2%20copy.jpg",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/CREATE3.jpg",
     "description": "Have you ever completed a makeup look and you received so many compliments that you wanted to cherish it forever? Well welcome to Create Beauty, the beauty application that allows you to store your look creation, rate them, and share them with others!",
     "technologies": "React, Firebase, HTML, CSS, Javascript, & Bootstrap",
     "url": "https://create-beauty.firebaseapp.com/auth",

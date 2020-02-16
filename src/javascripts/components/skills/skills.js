@@ -8,10 +8,10 @@ const buildSkills = () => {
   const domString = `
   <div class="wrapper">
     <h4 class="skillsTitle">Technologies</h4>
-    <div>
-    <img class="responsive" src="https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/skills3.png" alt="">
-    </div>
   </div>
+    <div class="text-center">
+    <img class="responsive justify-content-center" src="https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/skills3.png" alt="">
+    </div>
       
     `;
   utilities.printToDom('skills', domString);
