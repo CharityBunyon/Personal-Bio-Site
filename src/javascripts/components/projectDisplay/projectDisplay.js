@@ -8,9 +8,9 @@ import projectDom from '../projects/projects';
 const buildProjects = () => {
   projectData.getProjects()
     .then((project) => {
-      let domString = '<h1 id="projectTitle" class="text-center">WHAT I\'VE DONE</h1> <hr id="underline">';
+      let domString = '<div class="wrapper"><h4 class="skillsTitle">Projects</h4></div>';
       project.forEach((board) => {
-        domString += '<di class="container">';
+        domString += '<div class="container-fluid">';
         domString += projectDom.buildProjectCard(board);
       });
       utilities.printToDom('projects', domString);
