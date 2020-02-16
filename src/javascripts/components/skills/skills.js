@@ -9,7 +9,7 @@ const buildSkills = () => {
   <div class="wrapper">
     <h4 class="skillsTitle">Technologies</h4>
     <div>
-    <img class="responsive" src="https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/skills2.png" alt="">
+    <img class="responsive" src="https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/skills3.png" alt="">
     </div>
   </div>
       
