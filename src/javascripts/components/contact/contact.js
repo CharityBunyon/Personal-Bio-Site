@@ -16,6 +16,9 @@ const buildContact = () => {
             <p class="contactWays">Nashville, TN</p>
             <p class="contactWays">615.967.6153</p>
             <p class="contactWays"><a href="mailto: charitycbunyon@gmail.com" target="_blank">charitycbunyon@gmail.com</a></p>
+            <div>
+            <a href="" class="resume-link" target="_blank">Download My Resume</a>
+           </div>
           </div>
         </div>
       </div>

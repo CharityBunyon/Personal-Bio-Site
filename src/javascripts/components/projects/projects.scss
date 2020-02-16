@@ -5,13 +5,19 @@
 .projectTitle{
   color: #000;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 20px;
   padding-bottom: 30px;
 }
 
-.projectInfo{
+.projectDes {
+  color: #000;
+  // font-weight: bold;
   font-size: 20px;
+}
+
+.projectInfo{
+  font-size: 16px;
   color: #000;
 }
 
@@ -22,12 +28,12 @@
 }
 
 .projectImg{
-width: 1000px;
+width: 800px;
 }
 
 
 .projectContents{
-  padding-top: 130px;
+  padding-top: 88px;
   // border: 1px solid #000;
 }
 

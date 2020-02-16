@@ -5,7 +5,7 @@ const buildAnimation = () => {
   const domString = `
   <div class="col-12 fadeInText landing">
     <p class="myName">Charity Bunyon</p>
-    <p class="myTitle">A Software Developer</p>
+    <p class="myTitle">Software Developer</p>
   </div>
   <div class="caption" id="chevron">
     <a href="#about">

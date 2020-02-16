@@ -1,7 +1,7 @@
 
 .leaves {
-width: 900px;
-height: 800px;
+width: 750px;
+height: 700px;
 
 }
 
@@ -49,6 +49,25 @@ margin-bottom: 50px;
 .contactInfo {
   margin: 20% 0px;
   padding: 0px 100px;
+}
+
+.resume-link{
+  display: inline-block;
+  padding: 25px 40px;
+  border: solid 1px #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000;
+
+}
+
+.resume-link:hover{
+  text-decoration: none;
+  background-color: crimson;
+  border: crimson solid 1px;
+  color: #fff;
 }
 
 

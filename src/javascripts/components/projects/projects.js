@@ -10,8 +10,10 @@ const buildProjectCard = (projects) => {
     </div>
     <div class="col projectContents">
       <h4 class="projectTitle">${projects.title.toUpperCase()}</h4>
-        <p class="projectInfo"><strong>Project Description: </strong>${projects.description}</p>  
-        <p class="projectInfo"><strong>Technologies Used:</strong> ${projects.technologies}</p>
+        <p class="projectDes">Project Description:</p>  
+        <p class="projectInfo">${projects.description}</p> 
+        <p class="projectDes">Technologies Used:</p>
+        <p class="projectInfo">${projects.technologies}</p>
         
           <a href="${projects.url}" class="projectInfo viewProject">View Project</a>
           <a href="${projects.github}" class="projectInfo viewGit">View Github</a>  
