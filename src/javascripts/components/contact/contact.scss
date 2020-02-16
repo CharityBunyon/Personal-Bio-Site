@@ -1,57 +1,75 @@
 
-// #squareThree{
-//   background: #000;
-//   width: 50%;
-//   height: 100%;
-//   // margin: 0 auto;
-// }
+.leaves {
+width: 900px;
+height: 750px;
 
-// #squareFour{
-//   background: #fff;
-//   width: 50%;
-//   height: 100%;
-//   position: relative;
-// }
+}
 
-// .contactSection{
-//   position: absolute;
-//   top: 120px;
-//   margin-left: 30px;
+.contactDiv {
+ background-color: #f5d328;
 
-// }
-.contactTitles{
-  font-weight: bold;
-  color:#111;
+}
+
+.connectTitle {
+  // font-weight: bold;
+  color:#fff;
+  margin-bottom: 50px;
 }
 
 .space {
   padding: 20px;
 }
 
-.contactUnderline{
-  border: 1px solid crimson;
-  width: 200px;
-}
+// .contactUnderline{
+//   border: 1px solid crimson;
+//   width: 200px;
+// }
 
 .contactPara {
-font-size: 25px;
-color:#111;
+font-size: 20px;
+color:#fff;
+margin-bottom: 50px;
 }
 
-.contactPara  a {
+.contactWays {
+  font-size: 20px;
+  color:#fff;
+}
+
+.contactWays  a {
   text-decoration: none;
-  color:#111;
+  color:#fff;
   }
 
-.contactPara  a:hover {
+.contactWays  a:hover {
   text-decoration: none;
-  color:crimson;
+  color: #000;
   }
 
-// .contactImg {
-//   max-width:35%;
-//   height:700px;
-//   position: absolute;
-//   left: 130px;
-//   margin-top: 125px;;
-// }
+.contactInfo {
+  margin: 20% 0px;
+  padding: 0px 100px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .leaves {
+    width: 400px;
+    height: 500px;
+    }
+  .contactInfo {
+  // margin: 20% 0px;
+  padding: 0px;
+  margin-left: 5px;
+  }
+  .connectTitle {
+  font-size: 25px;
+  }
+
+  .contactPara {
+    font-size: 16px;
+  }
+  .contactWays {
+    font-size: 16px;
+  }
+}
