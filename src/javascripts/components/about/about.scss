@@ -22,3 +22,23 @@ padding: 0px 0px 27px;
   font-size: 20px;
   padding: 0px 0px 50px;
   }
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px;
+     }
+
+  .hello {
+  margin: 30px 43% 30px 0px;
+  background-color: #f5d328;
+  color: #fff;
+  padding: 20px 14px;
+  font-size: 20px;
+  }
+
+  .aboutPara,
+  .aboutPara2 {
+    font-size: 16px;
+  }
+}
