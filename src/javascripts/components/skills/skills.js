@@ -6,14 +6,13 @@ import utilities from '../../helpers/utilities';
 const buildSkills = () => {
   // const monkeyButt = skillsImg;
   const domString = `
-  <div class= "container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="skillsTitle d-flex justify-content-center">TECHNOLOGIES</h1>
-        <hr id="underline">
-        <div class="skillsGraphic">
-        </div>
-      </div>
+  <div class="wrapper">
+    <h4 class="skillsTitle">Technologies</h4>
+    <div>
+    <img class="responsive" src="https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/skills2.png" alt="">
+    </div>
+  </div>
+      
     `;
   utilities.printToDom('skills', domString);
 };

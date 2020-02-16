@@ -58,7 +58,7 @@
 
 
 p span {
-  font: 20px Monaco, MonoSpace;
+  font: 20px 'Roboto', sans-serif;
   height: 50px;
   position: absolute;
   width: 20px;
@@ -155,10 +155,14 @@ i.vert-move {
 
 @media screen and (max-width: 600px) {
   .myName{
-    font-size: 60px;
+    font-size: 40px;
   }
   
   .myTitle{
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  p span {
+    font: 20px 'Roboto', sans-serif;
   }
 }
