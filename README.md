@@ -39,8 +39,6 @@ Contact Section
 * At the root of this project, run the following command: `hs -p 8080`.
 * In your browser, navigate to `https://localhost:8080`;
 
-## Demo
-[Preview the app here!](https://personal-site-1cf88.firebaseapp.com/)
 
 ## Contributors
 
