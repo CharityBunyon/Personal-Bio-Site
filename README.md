@@ -39,11 +39,13 @@ Contact Section
 * At the root of this project, run the following command: `hs -p 8080`.
 * In your browser, navigate to `https://localhost:8080`;
 
+
 ## Demo
 
 *** This is Phase 1 of my personal site. ***
 [Phase 2 Github Link](https://github.com/CharityBunyon/CB)
 [Phase 2 Website Link](https://personal-site-44635.firebaseapp.com/)
+
 
 ## Contributors
 
