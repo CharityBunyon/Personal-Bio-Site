@@ -1,0 +1,22 @@
+.wrapper {
+  margin: 0px 60% 0px 40px;
+   }
+
+   .project {
+    margin-right: 80%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 10%;
+    background-color: #f5d328;
+    color: #fff;
+    padding: 20px 14px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .project {
+        margin-left: 20px;
+        margin-right: 40%;
+        font-size: 20px;
+        padding: 15px 14px;
+      }
+    }

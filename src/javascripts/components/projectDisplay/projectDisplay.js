@@ -1,20 +1,17 @@
-// import $ from 'jquery';
 import utilities from '../../helpers/utilities';
 import './projectDisplay.scss';
 import projectData from '../../helpers/data/projectData';
-import projectDom from '../projects/projects';
+import projects from '../projects/projects';
 
 
 const buildProjects = () => {
   projectData.getProjects()
     .then((project) => {
-      let domString = '<div class="wrapper"><h4 class="skillsTitle">Projects</h4></div>';
+      let domString = '';
       project.forEach((board) => {
-        domString += '<div class="container-fluid">';
-        domString += projectDom.buildProjectCard(board);
+        domString += projects.buildProjectCard(board);
       });
       utilities.printToDom('projects', domString);
-      domString += '</div>';
     })
     .catch((error) => console.error(error));
 };

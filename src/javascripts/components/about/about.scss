@@ -1,44 +1,93 @@
 .wrapper {
-margin: 0px 50% 0px 130px;
- }
-
-.hello {
-margin-right: 50%;
-margin-bottom: 40px;
-margin-top: 10%;
-background-color: #f5d328;
-color: #fff;
-padding: 20px 14px;
-}
-
-.aboutPara {
-color: #000;
-font-size: 20px;
-padding: 0px 0px 27px;
-}
-
-.aboutPara2 {
-  color: #000;
-  font-size: 20px;
-  padding: 0px 0px 50px;
-  }
-
-@media screen and (max-width: 600px) {
-  .wrapper {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 20px;
-     }
-
+  // height: 100vh;
+  margin: 50px 60% 50px 40px;
+  
+   }
+  
   .hello {
-  margin: 30px 43% 30px 0px;
+  margin-right: 50%;
+  margin-bottom: 40px;
+  margin-top: 10%;
   background-color: #f5d328;
   color: #fff;
   padding: 20px 14px;
+  top: 50vh;
+  margin-left: -100px;
+  }
+  
+  .aboutPara {
+  color: #000;
   font-size: 20px;
+  padding: 0px 0px 27px;
+  margin-left: -100px;
   }
-
-  .aboutPara,
+  
   .aboutPara2 {
-    font-size: 16px;
+    color: #000;
+    font-size: 20px;
+    padding: 0px 0px 50px;
+    margin-bottom: 100px;
+    margin-left: -100px;
+    }
+  
+  @media screen and (max-width: 600px) {
+    // .wrapper {
+    //   width: 325px;
+    //   // margin-right: 100px;
+    //    }
+  
+    // .hello {
+    // // margin: 30px 43% 30px 0px;
+    // background-color: #f5d328;
+    // color: #fff;
+    // // padding: 20px 14px;
+    // font-size: 20px;
+    // }
+  
+    // .aboutPara,
+    // .aboutPara2 {
+    //   font-size: 16px;
+    // }
+
+
+    .wrapper {
+      // height: 100vh;
+      // margin: 50px 60% 50px 40px;
+      // padding-left: -300px;
+      padding-left: -250px;
+      width: 100px;
+       }
+      
+      .hello {
+      margin-right: -30%;
+      // margin-bottom: 40px;
+      // margin-top: 10%;
+      background-color: #f5d328;
+      color: #fff;
+      padding: 15px 14px;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: -100px;
+      padding-right: 20px;
+      // top: 50vh;
+      }
+      
+      .aboutPara {
+      color: #000;
+      font-size: 16px;
+      margin-right: -160px;
+      margin-left: -100px;
+      padding-right: 30px;
+      }
+      
+      .aboutPara2 {
+        color: #000;
+        font-size: 16px;
+        margin-right: -160px;
+        // padding: 0px 0px 50px;
+        margin-bottom: 10px;
+        margin-left: -100px;
+      padding-right: 30px;
+        }
+
   }
-}
