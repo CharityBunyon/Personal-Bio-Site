@@ -1,94 +1,37 @@
-
-.leaves {
-width: 750px;
-height: 700px;
-
-}
-
-.contactDiv {
- background-color: #f5d328;
-
-}
-
-.connectTitle {
-  // font-weight: bold;
-  color:#fff;
-  margin-bottom: 50px;
-}
-
-.space {
-  padding: 20px;
-}
-
-// .contactUnderline{
-//   border: 1px solid crimson;
-//   width: 200px;
+// .contactArea {
+//   margin-top: 100px;
 // }
 
-.contactPara {
-font-size: 20px;
-color:#fff;
-margin-bottom: 50px;
-}
-
-.contactWays {
-  font-size: 20px;
-  color:#fff;
-}
-
-.contactWays  a {
-  text-decoration: none;
-  color:#fff;
-  }
-
-.contactWays  a:hover {
-  text-decoration: none;
-  color: #000;
-  }
-
 .contactInfo {
-  margin: 20% 0px;
-  padding: 0px 100px;
-}
-
-.resume-link{
-  display: inline-block;
-  padding: 25px 40px;
-  border: solid 1px #000;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #000;
-
-}
-
-.resume-link:hover{
-  text-decoration: none;
-  background-color: crimson;
-  border: crimson solid 1px;
+  background-color: #f5d328;
   color: #fff;
-}
-
-
-@media screen and (max-width: 600px) {
-  .leaves {
-    width: 400px;
-    height: 500px;
-    }
-  .contactInfo {
-  // margin: 20% 0px;
-  padding: 0px;
-  margin-left: 5px;
+  width: 100vw;
+  padding: 100px 100px 0px 100px;
   }
+  
   .connectTitle {
-  font-size: 25px;
+    margin-bottom: 40px;
   }
-
-  .contactPara {
-    font-size: 16px;
+  
+  
+  
+  .contactEmail a{
+    color: #fff;
+    text-decoration: none;
   }
-  .contactWays {
-    font-size: 16px;
+  
+  
+  .contactEmail a:hover{
+    color: #000;
+    text-decoration: none;
   }
-}
+  
+  @media only screen and (max-width: 600px) {
+    .emoji {
+      width: 325px;
+    }
+    .contactInfo {
+      padding: 50px 50px 50px 50px;
+      margin-left: 30px;
+    }
+  }

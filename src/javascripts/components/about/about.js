@@ -1,6 +1,5 @@
 import './about.scss';
 import utilities from '../../helpers/utilities';
-// import $ from 'jquery';
 
 
 const buildAbout = () => {
@@ -12,11 +11,10 @@ const buildAbout = () => {
     <p class="aboutPara2">I love working with clients that value the design process, collaboration, and want to be leaders in their respective industries. The full rundown of my projects and their focus is right below.</p>
     </div>
   </div>
-
  
     
     `;
-  utilities.printToDom('about1', domString);
+  utilities.printToDom('about', domString);
 };
 
 export default { buildAbout };

@@ -1,90 +1,83 @@
-.projectCard {
-  // padding-right: 30px;
+.projectCard  {
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border: 3px solid #000;
+}
+.icons {
+  width: 122px;
+  text-align: center;
+  margin-top: 90px;
 }
 
-.projectTitle{
+.projectTitle {
+  font-size: 30px;
+  color: #f5d328;
+  margin-bottom: 50px;
+}
+
+  
+.projectInfo {
   color: #000;
-  font-weight: bold;
-  font-size: 25px;
-  margin-top: 20px;
-  padding-bottom: 30px;
+  font-size: 19px;
+  margin-top: 30px;
+  padding: 0px 25px;
 }
 
-.projectDes {
-  color: #000;
-  // font-weight: bold;
-  font-size: 20px;
-}
-
-.projectInfo{
-  font-size: 16px;
-  color: #000;
-}
-
-.projectClick{
-  font-size: 20px;
-  color: crimson;
-  font-weight: bold;
-}
-
-.projectImg{
-width: 800px;
-}
-
-
-.projectContents{
-  padding-top: 88px;
-  // border: 1px solid #000;
-}
-
-.viewProject {
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
+.viewProject,
 .viewGit {
-  color: #000;
-  text-decoration: none;
-  // padding: 0px 20px;
-  margin: 0px 15px;
-  font-weight: bold;
+margin-right: 30px;
+color: #000;
+
 }
 
 .viewProject:hover {
-  border-bottom: 2px solid #f5d328;
-  color: #000;
   text-decoration: none;
+  color: #fff;
 }
 
 .viewGit:hover {
-  border-bottom: 2px solid #f5d328;
-  color: #000;
   text-decoration: none;
+  color: #fff;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .projectImg{
-    width: 325px;
-    // height: 400px;
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5d328;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.projectCard:hover .overlay {
+  opacity: 1;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 600px) {
+  .overlay {
+    width: 319px;
   }
 
-  .projectTitle{
+  .projectInfo {
     color: #000;
-    font-weight: bold;
     font-size: 16px;
-    margin-top: 20px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    padding: 0px 25px;
   }
   
-  .projectInfo{
-    font-size: 14px;
-    color: #000;
+  .viewProject,
+  .viewGit {
+  margin-right: 16px;
+  color: #000;
+  
   }
-  .projectContents{
-    padding-top: 0px;
-    // border: 1px solid #000;
-  }
-}
 
+}
